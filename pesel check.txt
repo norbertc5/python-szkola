@@ -1,0 +1,67 @@
+pesel = "07210904331"
+length = len(pesel)
+check = 0
+
+print("Dlugosc: ", length)
+
+if(length == 11):
+    print("Dlugosc Ok")
+    check += 1
+
+try:
+    int(pesel)
+    print("Znaki OK")
+    check += 1
+except:
+    print("Nie sklada sie z samych liczb")
+    
+month = pesel[2] + pesel[3]
+
+print("Id miesaca: ", month)
+month = int(month)
+
+if((month >= 1 and month <= 12) or (month >= 21 and month <= 32)):
+    print("Miesiac OK")
+    check += 1
+else:
+    print("Zly miesiac")
+
+day = pesel[4] + pesel[5]
+print(day)
+day = int(day)
+
+if(day >= 1):
+    # luty
+    if(month == 2 or month == 22):
+        if(day <= 28 or day <= 48):
+            print("Dzien OK")
+            check += 1
+    
+    # miesiace majace 31 dni
+    if(month % 2 == 1):
+        if(day <= 31 or day <= 51):
+            print("Dzien OK")
+            check += 1
+    else:     # miesiace majace 30 dni
+        if(day <= 30 or day <= 50):
+            print("Dzien OK")
+            check += 1
+            
+k = pesel[10]
+c = "1379137913"
+w = 0
+
+i = 0
+while(i < 10):
+    w += int(pesel[i]) * int(c[i])
+    i += 1
+print("Suma kontrolna: ", (10 - (w % 10)) % 10)
+print(pesel[10])
+
+if(int(pesel[10]) == (10 - (w % 10)) % 10):
+    print("Suma kontrolna OK")
+    check += 1
+    
+if(check >= 5):
+    print("Mozna stworzyc pesel!")
+
