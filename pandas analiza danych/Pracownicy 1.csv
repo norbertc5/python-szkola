@@ -1,0 +1,201 @@
+﻿ID;Imię;Nazwisko;Stanowisko;Zarobki;Płeć
+1;Korneliusz;Adamski;Grafik; 8 390,95 zł ;M
+2;Zuzanna;Adamska;Grafik; 8 703,34 zł ;F
+3;Róża;Andrzejewska;Programista; 8 384,25 zł ;F
+4;Olgierd;Andrzejewski;Kierownik; 7 819,02 zł ;M
+5;Kamila;Baran;Grafik; 4 852,62 zł ;F
+6;Celina;Baranowska;Grafik; 6 941,46 zł ;F
+7;Andrzej;Baranowski;Dział reklamy; 7 681,65 zł ;M
+8;Aleks;Baranowski;Programista; 6 543,60 zł ;M
+9;Jarosław;Baranowski;Dział reklamy; 5 086,78 zł ;M
+10;Marlena;Bąk;Programista; 8 491,64 zł ;F
+11;Mirosław;Błaszczyk;Projektant; 4 442,18 zł ;M
+12;Ada;Borkowska;Projektant; 7 470,76 zł ;F
+13;Jolanta;Borkowska;Kierownik; 7 924,70 zł ;F
+14;Alisa;Borkowska;Grafik; 6 356,21 zł ;F
+15;Zuzanna;Borkowska;Kierownik; 7 792,86 zł ;F
+16;Idalia;Brzezińska;Dział reklamy; 7 747,85 zł ;F
+17;Mieszko;Brzeziński;Programista; 8 040,40 zł ;M
+18;Dobromił;Brzeziński;Programista; 14 476,50 zł ;M
+19;Jakub;Brzeziński;Dzieł rekrutacji; 7 447,86 zł ;M
+20;Danuta;Chmielewska;Programista; 12 877,85 zł ;F
+21;Łukasz;Chmielewski;Programista; 9 191,51 zł ;M
+22;Alexander;Cieślak;Grafik; 4 123,21 zł ;M
+23;Roksana;Cieślak;Programista; 5 849,77 zł ;F
+24;Franciszka;Czarnecka;Dział reklamy; 8 249,96 zł ;F
+25;Kacper;Czarnecki;Projektant; 5 404,03 zł ;M
+26;Aleks;Czerwiński;Programista; 6 589,85 zł ;M
+27;Anatol;Dąbrowski;Programista; 7 404,87 zł ;M
+28;Anastazy;Dąbrowski;Projektant; 5 919,43 zł ;M
+29;Bruno;Duda;Projektant; 4 637,93 zł ;M
+30;Miron;Duda;Dział reklamy; 7 001,60 zł ;M
+31;Martin;Duda;Programista; 12 374,46 zł ;M
+32;Halina;Duda;Grafik; 6 568,81 zł ;F
+33;Malwina;Duda;Programista; 7 170,94 zł ;F
+34;Miron;Gajewski;Projektant; 7 508,36 zł ;M
+35;Beata;Gajewska;Programista; 5 209,99 zł ;F
+36;Alisa;Głowacka;Grafik; 8 015,79 zł ;F
+37;Paulina;Górecka;Programista; 10 961,75 zł ;F
+38;Lidia;Górska;Programista; 13 253,84 zł ;F
+39;Mirosław;Górski;Projektant; 4 302,10 zł ;M
+40;Andrzej;Górski;Grafik; 5 264,75 zł ;M
+41;Józefa;Jakubowska;Dział reklamy; 5 875,17 zł ;F
+42;Konrad;Jakubowski;Dzieł rekrutacji; 4 350,47 zł ;M
+43;Angelika;Jankowska;Menedżer; 8 490,85 zł ;F
+44;Matylda;Jankowska;Programista; 7 460,53 zł ;F
+45;Agnieszka;Jasińska;Programista; 14 939,88 zł ;F
+46;Magdalena;Jaworska;Kierownik; 7 044,02 zł ;F
+47;Andrea;Jaworska;Programista; 12 204,23 zł ;F
+48;Eliza;Jaworska;Menedżer; 5 885,96 zł ;F
+49;Ryszard;Jaworski;Programista; 6 134,04 zł ;M
+50;Jędrzej;Jaworski;Programista; 13 272,53 zł ;M
+51;Anatol;Jaworski;Menedżer; 8 686,42 zł ;M
+52;Michał;Kaczmarczyk;Projektant; 4 452,32 zł ;M
+53;Gabriel;Kaczmarczyk;Dział reklamy; 8 294,99 zł ;M
+54;Klaudiusz;Kaczmarczyk;Kierownik; 7 195,94 zł ;M
+55;Mirosława;Kaczmarczyk;Dzieł rekrutacji; 4 133,23 zł ;F
+56;Wiktoria;Kaczmarczyk;Projektant; 4 964,09 zł ;F
+57;Alana;Kalinowska;Menedżer; 5 187,90 zł ;F
+58;Maksymilian;Kalinowski;Dzieł rekrutacji; 6 322,54 zł ;M
+59;Joachim;Kalinowski;Dział reklamy; 6 270,12 zł ;M
+60;Damian;Kalinowski;Dzieł rekrutacji; 5 839,43 zł ;M
+61;Marysia;Kamińska;Grafik; 6 007,29 zł ;F
+62;Aureliusz;Kamiński;Grafik; 4 504,39 zł ;M
+63;Radosław;Kaźmierczak;Programista; 10 014,12 zł ;M
+64;Marcin;Kaźmierczak;Programista; 8 878,41 zł ;M
+65;Otylia;Kaźmierczak;Grafik; 6 314,32 zł ;F
+66;Nikola;Kołodziej;Grafik; 8 406,60 zł ;F
+67;Magda;Kołodziej;Kierownik; 7 357,15 zł ;F
+68;Helena;Kołodziej;Programista; 6 136,45 zł ;F
+69;Anna;Kołodziej;Kierownik; 7 437,59 zł ;F
+70;Olaf;Kowalczyk;Grafik; 6 938,18 zł ;M
+71;Ireneusz;Kowalczyk;Grafik; 8 896,64 zł ;M
+72;Krzysztof;Kowalczyk;Dział reklamy; 6 175,02 zł ;M
+73;Daniela;Kowalczyk;Dział reklamy; 7 197,25 zł ;F
+74;Luiza;Kowalska;Projektant; 4 789,52 zł ;F
+75;Alfred;Kowalski;Dzieł rekrutacji; 7 075,29 zł ;M
+76;Helena;Kozłowska;Projektant; 6 245,28 zł ;F
+77;Marcel;Kozłowski;Kierownik; 7 684,72 zł ;M
+78;Bronisław;Kozłowski;Menedżer; 7 570,49 zł ;M
+79;Paweł;Krajewski;Programista; 14 809,32 zł ;M
+80;Olga;Krawczyk;Projektant; 5 361,70 zł ;F
+81;Eliza;Krawczyk;Dział reklamy; 7 336,63 zł ;F
+82;Emanuel;Kubiak;Kierownik; 7 858,47 zł ;M
+83;Arkadiusz;Kubiak;Kierownik; 7 080,98 zł ;M
+84;Patrycja;Kubiak;Dzieł rekrutacji; 7 300,43 zł ;F
+85;Elena;Kubiak;Dzieł rekrutacji; 4 713,50 zł ;F
+86;Balbina;Kucharska;Programista; 14 575,23 zł ;F
+87;Franciszek;Kucharski;Grafik; 5 229,51 zł ;M
+88;Jakub;Kucharski;Dzieł rekrutacji; 4 690,69 zł ;M
+89;Izyda;Kwiatkowska;Menedżer; 4 220,52 zł ;F
+90;Faustyna;Kwiatkowska;Programista; 6 136,80 zł ;F
+91;Jędrzej;Kwiatkowski;Menedżer; 4 604,30 zł ;M
+92;Magda;Laskowska;Dział reklamy; 6 916,97 zł ;F
+93;Danuta;Lewandowska;Programista; 8 459,02 zł ;F
+94;Miron;Lewandowski;Kierownik; 7 804,26 zł ;M
+95;Allan;Lewandowski;Programista; 5 269,15 zł ;M
+96;Maurycy;Lewandowski;Dział reklamy; 5 700,72 zł ;M
+97;Leonardo;Lis;Dział reklamy; 8 436,84 zł ;M
+98;Roksana;Lis;Programista; 7 927,58 zł ;F
+99;Krystyna;Lis;Menedżer; 7 881,83 zł ;F
+100;Milena;Lis;Dział reklamy; 7 301,19 zł ;F
+101;Liliana;Maciejewska;Dział reklamy; 4 285,90 zł ;F
+102;Arleta;Makowska;Dział reklamy; 5 200,63 zł ;F
+103;Ola;Makowska;Dzieł rekrutacji; 6 741,47 zł ;F
+104;Krzysztof;Makowski;Menedżer; 5 463,11 zł ;M
+105;Czesława;Malinowska;Projektant; 4 413,17 zł ;F
+106;Oksana;Malinowska;Menedżer; 5 050,59 zł ;F
+107;Kryspin;Marciniak;Programista; 8 331,19 zł ;M
+108;Żaneta;Marciniak;Dzieł rekrutacji; 4 504,16 zł ;F
+109;Ksawery;Mazur;Dział reklamy; 7 589,51 zł ;M
+110;Edyta;Mazur;Dział reklamy; 5 022,20 zł ;F
+111;Patryk;Mazurek;Programista; 8 530,82 zł ;M
+112;Roman;Mazurek;Grafik; 6 720,00 zł ;M
+113;Elena;Michalak;Programista; 14 072,87 zł ;F
+114;Julianna;Mróz;Programista; 7 561,89 zł ;F
+115;Ida;Mróz;Dział reklamy; 6 716,87 zł ;F
+116;Mikołaj;Nowak;Programista; 11 410,37 zł ;M
+117;Ola;Nowak;Programista; 7 532,55 zł ;F
+118;Monika;Nowak;Dzieł rekrutacji; 5 578,58 zł ;F
+119;Ireneusz;Ostrowski;Menedżer; 4 626,09 zł ;M
+120;Gracjan;Ostrowski;Dział reklamy; 7 984,43 zł ;M
+121;Judyta;Pawlak;Menedżer; 5 599,29 zł ;F
+122;Ewelina;Pawlak;Dział reklamy; 6 164,17 zł ;F
+123;Eleonora;Pietrzak;Dział reklamy; 5 689,04 zł ;F
+124;Balbina;Pietrzak;Dzieł rekrutacji; 7 360,30 zł ;F
+125;Kordian;Piotrowski;Programista; 5 297,00 zł ;M
+126;Bartosz;Przybylski;Grafik; 6 544,37 zł ;M
+127;Aleksander;Sadowski;Dzieł rekrutacji; 8 041,53 zł ;M
+128;Ignacy;Sikora;Programista; 7 028,05 zł ;M
+129;Juliusz;Sikora;Menedżer; 4 487,89 zł ;M
+130;Grzegorz;Sikora;Dzieł rekrutacji; 4 335,95 zł ;M
+131;Izabela;Sikora;Dzieł rekrutacji; 8 844,89 zł ;F
+132;Kornel;Sikorski;Dzieł rekrutacji; 6 554,61 zł ;M
+133;Karol;Sikorski;Programista; 14 021,76 zł ;M
+134;Klara;Sikorska;Projektant; 6 864,89 zł ;F
+135;Dorota;Sikorska;Programista; 7 835,42 zł ;F
+136;Malwina;Sikorska;Programista; 8 614,21 zł ;F
+137;Lidia;Sobczak;Dzieł rekrutacji; 8 638,94 zł ;F
+138;Maurycy;Sokołowski;Programista; 13 471,80 zł ;M
+139;Dominik;Sokołowski;Dział reklamy; 8 481,70 zł ;M
+140;Fabian;Sokołowski;Grafik; 7 038,13 zł ;M
+141;Martin;Stępień;Projektant; 5 359,59 zł ;M
+142;Blanka;Stępień;Projektant; 7 986,44 zł ;F
+143;Adela;Stępień;Menedżer; 5 000,95 zł ;F
+144;Klara;Szczepańska;Grafik; 4 091,91 zł ;F
+145;Wioletta;Szczepańska;Programista; 7 240,76 zł ;F
+146;Bogusława;Szewczyk;Programista; 7 830,39 zł ;F
+147;Franciszek;Szulc;Programista; 12 317,58 zł ;M
+148;Hubert;Szulc;Projektant; 8 650,93 zł ;M
+149;Helena;Szulc;Grafik; 5 588,83 zł ;F
+150;Izyda;Szulc;Programista; 12 292,69 zł ;F
+151;Antonina;Szulc;Projektant; 5 838,33 zł ;F
+152;Judyta;Szulc;Programista; 9 652,41 zł ;F
+153;Gracjan;Szymański;Programista; 13 094,11 zł ;M
+154;Oktawian;Szymczak;Programista; 6 264,61 zł ;M
+155;Beata;Szymczak;Projektant; 7 676,18 zł ;F
+156;Aniela;Tomaszewska;Programista; 10 774,68 zł ;F
+157;Stanisława;Tomaszewska;Grafik; 5 799,02 zł ;F
+158;Olaf;Tomaszewski;Dzieł rekrutacji; 6 004,47 zł ;M
+159;Bartłomiej;Tomaszewski;Grafik; 6 264,38 zł ;M
+160;Karol;Urbańska;Projektant; 8 829,07 zł ;M
+161;Franciszek;Urbańska;Dział reklamy; 8 911,53 zł ;M
+162;Dobromił;Urbańska;Grafik; 4 039,02 zł ;M
+163;Milan;Urbańska;Dzieł rekrutacji; 4 051,93 zł ;M
+164;Dariusz;Walczak;Grafik; 6 840,10 zł ;M
+165;Marzanna;Walczak;Projektant; 8 462,17 zł ;F
+166;Franciszka;Walczak;Dzieł rekrutacji; 5 288,21 zł ;F
+167;Korneliusz;Wasilewski;Projektant; 6 239,18 zł ;M
+168;Anita;Wiśniewska;Projektant; 5 171,15 zł ;F
+169;Dagmara;Wiśniewska;Grafik; 6 623,64 zł ;F
+170;Natan;Wiśniewski;Projektant; 6 149,62 zł ;M
+171;Julianna;Witkowska;Programista; 7 311,48 zł ;F
+172;Józef;Witkowski;Dzieł rekrutacji; 6 133,16 zł ;M
+173;Dawid;Włodarczyk;Menedżer; 8 586,30 zł ;M
+174;Borys;Włodarczyk;Dział reklamy; 6 991,93 zł ;M
+175;Gabriela;Włodarczyk;Programista; 14 763,82 zł ;F
+176;Joanna;Włodarczyk;Projektant; 7 432,95 zł ;F
+177;Klaudiusz;Wojciechowski;Programista; 9 167,41 zł ;M
+178;Klaudiusz;Woźniak;Dzieł rekrutacji; 8 124,18 zł ;M
+179;Alojzy;Woźniak;Programista; 9 842,17 zł ;M
+180;Emilia;Woźniak;Dzieł rekrutacji; 5 942,00 zł ;F
+181;Celina;Woźniak;Kierownik; 7 286,16 zł ;F
+182;Kinga;Woźniak;Projektant; 4 570,65 zł ;F
+183;Mateusz;Wójcik;Grafik; 8 330,04 zł ;M
+184;Elwira;Wójcik;Dział reklamy; 6 409,90 zł ;F
+185;Aneta;Wójcik;Dzieł rekrutacji; 5 844,06 zł ;F
+186;Judyta;Wróblewska;Grafik; 8 953,67 zł ;F
+187;Lidia;Wróblewska;Kierownik; 7 645,09 zł ;F
+188;Janusz;Wróblewski;Programista; 9 602,90 zł ;M
+189;Adrian;Wróblewski;Kierownik; 7 200,16 zł ;M
+190;Izyda;Wysocka;Dzieł rekrutacji; 7 616,17 zł ;F
+191;Jan;Wysocki;Programista; 11 505,88 zł ;M
+192;Bartosz;Zakrzewski;Dział reklamy; 6 212,65 zł ;M
+193;Amadeusz;Zakrzewski;Projektant; 5 985,11 zł ;M
+194;Igor;Zakrzewski;Programista; 6 702,10 zł ;M
+195;Teresa;Zalewska;Dzieł rekrutacji; 6 820,33 zł ;F
+196;Eliza;Zalewska;Grafik; 4 467,27 zł ;F
+197;Kryspin;Zieliński;Programista; 10 570,89 zł ;M
+198;Adrian;Zieliński;Projektant; 8 244,57 zł ;M
+199;Michał;Ziółkowski;Dzieł rekrutacji; 5 810,20 zł ;M
+200;Marek;Ziółkowski;Kierownik; 7 024,89 zł ;M
