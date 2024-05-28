@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <style>
+        #camView {
+            border: 1px solid black;
+            margin: auto;
+        }
+        #controls {
+            margin: auto;
+            margin-top: 20px;            
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">      
+        <h1>Narysuj kształt</h1>
+        <p>[Esc] czyści obszar rysowania</p>        
+        <canvas id="canvas" width="400px" height="400px" class="canvas" style="border:1px solid #b9bfc9;margin-top:25px;"></canvas>
+        <div class="predictions" id="predictions"></div>
+    </div>
+           
+    <script>
+
+        let canvas = document.getElementById("canvas");
+        let ctx = canvas.getContext('2d');
+        let drag = false;
+        let pos = { x: 0, y: 0 };
+        let model = null;
+
+        async function loadModel() {	    
+             
+            const URL = "./Models/ksztalty/";
+            const modelURL = URL + "model.json";
+            const metadataURL = URL + "metadata.json";
+            model = await tmImage.load(modelURL, metadataURL);
+            maxPredictions = model.getTotalClasses();
+           
+        }
+
+        function setPos(e) {
+            pos.x = e.clientX - ctx.canvas.offsetLeft;
+            pos.y = e.clientY - ctx.canvas.offsetTop;
+        }
+
+        canvas.addEventListener('contextmenu',function(e) {
+            e.preventDefault();            
+        })
+
+        document.addEventListener('keydown', function(event){
+            if(event.key === "Escape"){
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.fillStyle = "#FFFFFF";
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+            }
+        });
+
+
+        canvas.addEventListener('mousedown',  function (e) {  
+            drag = true; 
+            setPos(e);
+        });
+
+        canvas.addEventListener('mouseup', function () { 
+            drag = false; 
+            predictModel();
+        });
+
+
+        canvas.addEventListener('mousemove',  function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (drag) {
+                ctx.beginPath();
+                ctx.lineWidth = 2;               
+                ctx.strokeStyle = 'black';
+                ctx.moveTo(pos.x, pos.y);
+                setPos(e);
+                ctx.lineTo(pos.x, pos.y);
+                ctx.stroke();                
+            }
+        });
+        
+
+        async function predictModel() {   
+                    
+            const prediction = await model.predict(canvas);
+            let predDiv = document.getElementById("predictions");
+            predDiv.innerHTML = "";
+            for (let i = 0; i < maxPredictions; i++) {
+                const classPrediction =
+                    prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+                //console.log(classPrediction);
+                predDiv.innerHTML += "<span>"+classPrediction+" </span>"+"<meter min=0 max=1 value="+prediction[i].probability+"></meter><br>";
+            }
+        }
+
+        loadModel()
+    </script>
+
+</body>
+</html>
